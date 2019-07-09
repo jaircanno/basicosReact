@@ -2,6 +2,7 @@
 import React, {Fragment} from 'react';
 import Header from './components/Header.js'
 import Footer from './components/Footer.js'
+import Product from './components/Product.js'
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
           <Header
             titulo = 'Tienda virtual'
           />
+
+          <Product />
+
           <Footer
               fecha = {fecha}
           />
