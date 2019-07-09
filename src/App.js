@@ -1,6 +1,6 @@
 /* ----- Libraries ---------------------------------------------------- */
 import React, {Fragment} from 'react';
-import PrimerComponente from './components/PrimerComponente.js'
+import ClassComponent from './components/Examples/ClassComponent.js'
 
 function App() {
 
@@ -13,10 +13,6 @@ function App() {
     /* ----- Views Elements --------------------------------- */
   return (
       <Fragment>
-          < PrimerComponente />
-          <h2> {empleado.nombre} </h2>
-          <p> {empleado.trabajo} </p>
-          { 2 + 2 }
       </Fragment>
   )
 
