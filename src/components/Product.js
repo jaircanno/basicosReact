@@ -6,8 +6,12 @@ import React from 'react';
 *       para ello se le asigno al componente hijo (Product) ciertas props con los cuales
 *       se desea que itere cada vez que se le mande llamar por medio de un map()
 * */
-const Product = (props) => {
-    return ( <h4> ${props.product.price} {props.product.name} </h4>);
-};
+const Product = (props) => (
+    <div>
+        <h4> {props.product.name} </h4>
+        <p> Precio ${props.product.price}</p>
+    </div>
+
+);
 
 export default Product;
